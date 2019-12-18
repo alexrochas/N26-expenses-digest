@@ -13,7 +13,7 @@ category_mapping = {}
 try:
     input_file = sys.argv[1]
 except IndexError:
-    input_file = 'dezembro-parcial.csv'
+    input_file = 'input-example.csv'
 
 mappings = open('mappings.txt')
 pattern = re.compile(r'(.*)=\[(.*(?:,)?)\]')
